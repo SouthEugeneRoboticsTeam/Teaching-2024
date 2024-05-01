@@ -7,13 +7,7 @@ package org.sert2521.offseason2024
  * `const` definitions. Other constant types should use `val` definitions.
  */
 
-object Constants
-{
-    object OperatorConstants
-    {
-        const val DRIVER_CONTROLLER_PORT = 0
-    }
-}
+
 
 
 
