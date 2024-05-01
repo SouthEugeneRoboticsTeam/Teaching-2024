@@ -1,12 +1,11 @@
 package org.sert2521.offseason2024.commands
 
 import edu.wpi.first.wpilibj2.command.Command
+import org.sert2521.offseason2024.subsystems.ExampleSubsystem
 
 class ExampleCommand : Command() {
-
-
     init {
-        addRequirements()
+        addRequirements(ExampleSubsystem)
     }
 
     override fun initialize() {}
@@ -17,5 +16,7 @@ class ExampleCommand : Command() {
         return false
     }
 
-    override fun end(interrupted: Boolean) {}
+    override fun end(interrupted: Boolean) {
+
+    }
 }

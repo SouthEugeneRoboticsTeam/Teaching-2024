@@ -30,7 +30,7 @@ object Robot : TimedRobot()
      */
     override fun robotInit()
     {
-
+        Input
     }
 
     /**
