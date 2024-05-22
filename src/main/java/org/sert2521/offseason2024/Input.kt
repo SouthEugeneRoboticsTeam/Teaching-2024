@@ -21,3 +21,7 @@ object Input {
         wristSetTwo.onTrue(SetWrist(PhysicalConstants.WristAngleTwo))
     }
 }
+
+// Hewwo ≧(´▽｀)≦
+// Dis Nowoa :3
+// Have a nice day :D
