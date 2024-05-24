@@ -2,11 +2,12 @@ package org.sert2521.offseason2024
 
 object PhysicalConstants {
     const val wristAngleRest = 0.0
-    const val WristAngleOne = 0.0
-    const val WristAngleTwo = 0.0
+    const val WristAngleOne = 1.2
+    const val WristAngleTwo = 2.4
 }
+
 object TunedConstants {
-    const val WRIST_CURRENT_LIMIT = 15
+    const val WRIST_CURRENT_LIMIT = 15.0
 
     const val WRIST_P = 0.01
     const val WRIST_I = 0.01

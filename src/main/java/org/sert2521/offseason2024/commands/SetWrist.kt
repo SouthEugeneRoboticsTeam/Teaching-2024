@@ -5,10 +5,12 @@ import edu.wpi.first.math.controller.PIDController
 import edu.wpi.first.wpilibj2.command.Command
 import org.sert2521.offseason2024.TunedConstants
 import org.sert2521.offseason2024.subsystems.Wrist
+import edu.wpi.first.wpilibj2.command.TrapezoidProfileSubsystem
+
 
 class SetWrist(val wristTarget:Double) : Command() {
 
-    private val wristPID = PIDController(TunedConstants.WRIST_P, TunedConstants.WRIST_I, TunedConstants.WRIST_D)
+    //private val wristPID =
     private val wristFeedForward = ArmFeedforward(TunedConstants.WRIST_S, TunedConstants.WRIST_G, TunedConstants.WRIST_V, TunedConstants.WRIST_A)
 
     init {
