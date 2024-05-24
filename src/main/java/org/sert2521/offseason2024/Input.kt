@@ -22,5 +22,5 @@ object Input {
 }
 
 // Hewwo ≧(´▽｀)≦
-// Dis Nowoa :3
+// Dis Nowoa >:3
 // Have a nice day :D
